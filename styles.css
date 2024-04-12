@@ -4,12 +4,15 @@ body{
     margin: 0 auto;
     color:white;
     font-family: "Fira Sans", sans-serif;
+  
 }
 
 
 .wrapper-website{
     width:50%;
     margin:0 auto;
+    
+
 }
 
 /* nav */
@@ -41,26 +44,57 @@ color:rgb(255, 255, 255);
  
     
 }
+.wrapper-nav .left{
+    display: flex;
+    gap: 0;
+}
+.wrapper-nav .left h4{
+   padding-left: 0%;
+}
+.wrapper-nav .right #about-link
+{
+    color: #429B2B;
+}
+
 
 /* hero */
 .wrapper-hero{
-    height: 1000px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 700px;
+    background-image: url("./assets/Untitled\ design.png");
+    background-repeat: no-repeat;
+    background-size: contain;
   
 
 }
-.wrapper-hero .left{
-    display: flex;flex-direction: column;
-    width: 50%;
-    
-    
+.wrapper-hero .main{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
 }
-.wrapper-hero .right{
-    display: flex;flex-direction: column;
-    width: 50%;
-   
+.wrapper-hero .main h1{
+    font-size:3rem;
+    margin-bottom: -1%;
+    text-align: center;
+
+}
+.wrapper-hero .main p{
+    font-size:0.7rem;
+    margin:0;
+    width:50%;
+    text-align: center;
+
+}
+button{
+    background-color: #429B2B;
+    color: white;
+    padding: 1%;;
+    width:15%;
+
 }
