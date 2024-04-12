@@ -106,4 +106,10 @@ button{
     background-image: url("./assets/Untitled\ design\ \(2\).png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-about .left{
+    
 }
