@@ -3,7 +3,7 @@
 $name = $_POST['name']= "fff";
 $email = $_POST['email']= "AA";
 $subject = $_POST['subject']= "fff";
-$message = $_POST['message']= = "fff";
+$message = $_POST['message']= "fff";
 
 $mailheader = "From:".$name."<".$email.">\r\n";
 
