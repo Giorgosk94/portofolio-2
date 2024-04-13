@@ -66,9 +66,10 @@ color:rgb(255, 255, 255);
     align-items: center;
     width: 100%;
     min-height: 1000px;
-    background-image: url("");
+    background-image: url("./assets/spooky-clouds-night-sky-moon-animation-qxx8yxaebiz0a0w2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50%;
   
 
 }
