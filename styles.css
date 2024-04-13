@@ -65,8 +65,8 @@ color:rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 700px;
-    background-image: url("./assets/Untitled\ design.png");
+    min-height: 1000px;
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -86,7 +86,7 @@ color:rgb(255, 255, 255);
 }
 .wrapper-hero .main p{
     font-size:0.7rem;
-    margin:0;
+    margin:10%;
     width:50%;
     text-align: center;
 
@@ -95,7 +95,7 @@ button{
     background-color: #429B2B;
     color: white;
     padding: 1%;;
-    width:15%;
+    width:50%;
 
 }
 
@@ -103,7 +103,7 @@ button{
 .wrapper-about{
     width: 100%;
     height: 700px;
-    background-image: url("./assets/Untitled\ design\ \(2\).png");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -174,7 +174,7 @@ button{
     align-items:center;
 }
 .wrapper-contact{
-    width:100%;
+    width:50%;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -207,7 +207,7 @@ input[type=text], select, textarea {
     background-color: #000000;
     color: white;
   }
-  /* Style the submit button with a specific background color etc */
+
   input[type=submit] {
     background-color: #429B2B;
     color: white;
@@ -215,17 +215,19 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+ 
   input[type=submit]:hover {
     background-color:#429B2B;
   }
   
-  /* Add a background color and some padding around the form */
+
   .container {
     border-radius: 5px;
     background-color: #000000;
     padding: 20px;
+
   }
   
