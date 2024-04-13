@@ -1,9 +1,9 @@
 <?php
 
-$name = $_POST['name']= "fff";
-$email = $_POST['email']= "AA"
-$subject = $_POST['subject']= "fff";
-$message = $_POST['message']= "fff";
+$name = $_POST['name'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
 
 $mailheader = "From:".$name."<".$email.">\r\n";
 
