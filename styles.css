@@ -114,6 +114,10 @@ button{
 .wrapper-about .right{
     width: 50%;
 }
+.wrapper-about .right p{
+    text-align: center;
+    
+}
 
 
 .skills .wrapper-skills {
