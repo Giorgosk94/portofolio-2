@@ -2,7 +2,7 @@ body{
     background-color: black;
     width:100%;
     margin: 0 auto;
-    color:white;
+    color: #c0c0c0;
     font-family: "Fira Sans", sans-serif;
   
 }
@@ -11,6 +11,9 @@ body{
 .wrapper-website{
     width:50%;
     margin:0 auto;
+    background-image: url(./assets/αρχείο\ λήψης\ \(1\).jpg);
+background-size: cover;
+background-repeat: no-repeat;
     
 
 }
@@ -18,42 +21,37 @@ body{
 /* nav */
 nav{
     position: fixed;
-    width:50%;
+  
 }
 .wrapper-nav .right ul li {
     display: inline-block;
     list-style-type:none;
-  display: inline-block;
-  margin: 10px;
+ 
+  margin-left: 5px;
 
 }
 
 
 .wrapper-nav .right ul li a{
 text-decoration: none;
-color:rgb(255, 255, 255);
+color: #c0c0c0;
 
 
 }
 .wrapper-nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    color: rgb(255, 255, 255);
+    justify-content: center;
+    color:  #c0c0c0;
     
  
     
 }
-.wrapper-nav .left{
-    display: flex;
-    gap: 0;
-}
-.wrapper-nav .left h4{
-   padding-left: 0%;
-}
+
+
 .wrapper-nav .right #about-link
 {
-    color: #429B2B;
+    color: #2899bb;
 }
 
 
@@ -63,13 +61,11 @@ color:rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 100%;
     min-height: 1000px;
-    background-image: url("./assets/spooky-clouds-night-sky-moon-animation-qxx8yxaebiz0a0w2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+  
+
   
 
 }
@@ -78,11 +74,13 @@ color:rgb(255, 255, 255);
     justify-content: center;
     align-items:center ;
     flex-direction: column;
+    margin-top: 30%;
 }
 .wrapper-hero .main h1{
-    font-size:3rem;
+    font-size:5rem;
     margin-bottom: -1%;
     text-align: center;
+    font-family: "Jersey 15", sans-serif;
 
 }
 .wrapper-hero .main p{
@@ -93,10 +91,11 @@ color:rgb(255, 255, 255);
 
 }
 button{
-    background-color: #429B2B;
-    color: white;
+    background-color: #2899bb;
+    color:  #c0c0c0;
     padding: 1%;;
     width:50%;
+    margin-top: 10%;
 
 }
 
@@ -114,6 +113,9 @@ button{
 }
 .wrapper-about .right{
     width: 50%;
+}
+.wrapper-about .left img{
+    border-radius: 50%;;
 }
 .wrapper-about .right p{
     text-align: center;
@@ -197,7 +199,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical ;
-    background-color: #000000;
+   background-color: #000000;
     color: white;
   }
   input[type=email], select, textarea {
@@ -209,12 +211,12 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical ;
-    background-color: #000000;
+  background-color: #000000;
     color: white;
   }
 
   input[type=submit] {
-    background-color: #429B2B;
+    background-color: #2899bb;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -227,14 +229,19 @@ input[type=text], select, textarea {
   
  
   input[type=submit]:hover {
-    background-color:#429B2B;
+    background-color:black;
   }
   
 
   .container {
     border-radius: 5px;
-    background-color: #000000;
+    
     padding: 20px;
+
+  }
+  #title-2{
+    font-size:3rem;
+    padding-top: 10%;
 
   }
 
