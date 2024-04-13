@@ -156,6 +156,7 @@ button{
 .wrapper-project{
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    
 }
 
 .skills h1{text-align: center;}
@@ -173,12 +174,13 @@ button{
     align-items:center;
 }
 .wrapper-contact{
-    width:75%;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items:center;
     height: 1000px;
     flex-direction: column;
+    
 }
 
 input[type=text], select, textarea {

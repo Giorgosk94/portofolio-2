@@ -129,20 +129,21 @@
           <div class="wrapper-contact">
             <h1>contact</h1>
             <div class="container">
-              <form action="action_page.php">
+              <form action="mail.php" method="POST">
             
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="text" id="name" name="firstname" placeholder="Your name..">
             
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
             
                 <label for="email">Email</label>
                   <input type="text" id="email" name="email" placeholder="Your email..">
-                
+                  
+                  <label for="subject">Subject:</label>
+                  <input type="text" name="subject" id="subject">
             
                 <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
             
                 <input type="submit" value="Submit">
             
