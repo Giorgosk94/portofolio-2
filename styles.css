@@ -193,6 +193,7 @@ input[type=text], select, textarea {
     margin-bottom: 16px; 
     resize: vertical ;
     background-color: #000000;
+    color: white;
   }
   
   /* Style the submit button with a specific background color etc */
